@@ -94,5 +94,40 @@ directories i.e ../../../../)
 descriptions
 
 
-# 1.3 Forking and Cloning
+# 1.4 Forking and Cloning
 
+If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?
+
+Create a new repo in Github:
+
+Sign in to Github
+On the upper right hand corner of the page, click the "+" icon
+Click "New Repository"
+Name your repository, set privacy and other settings.
+Click "Create Repository"
+
+
+Fork a repo:
+
+Find a repository that you want to fork (fork = make a copy of to edit without changing the original)
+On the upper right hand corner of the page, click "Fork"
+Choose the profile you would like to fork the repository to
+
+
+Clone a repo:
+
+Make sure you have your git profile set up in your terminal.
+
+On Github, Navigate to the repository that you want to clone
+Find the clone URL (next to the HTTPS button). Copy the clone URL to the clipboard
+In the Terminal, navigate to the directory in which you would like to clone the repository to
+
+
+Type: git clone [clone URL]
+Forking a repository allows the user to have their own copy of that repository. Any changes they make to their copy will not affect the original copy. This is namely useful for contributing to open-source projects, or suggesting changes to the original creator's work.
+
+
+
+What struggles did you have setting up git and GitHub? What did you learn in the process?
+
+Setting up git and Github were relatively painless. I learned that the terminal is a LOT more powerful than I originally thought. It can get information from the internet and push information from my computer onto the internet! I also learned how useful git is for being efficient, productive, and able to collaborate with others.
