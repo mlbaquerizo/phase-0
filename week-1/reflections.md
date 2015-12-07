@@ -94,6 +94,10 @@ directories i.e ../../../../)
 descriptions
 
 
+<<<<<<< HEAD
+# 1.3 Forking and Cloning
+
+=======
 # 1.4 Forking and Cloning
 
 If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?
@@ -131,3 +135,4 @@ Forking a repository allows the user to have their own copy of that repository. 
 What struggles did you have setting up git and GitHub? What did you learn in the process?
 
 Setting up git and Github were relatively painless. I learned that the terminal is a LOT more powerful than I originally thought. It can get information from the internet and push information from my computer onto the internet! I also learned how useful git is for being efficient, productive, and able to collaborate with others.
+>>>>>>> master
