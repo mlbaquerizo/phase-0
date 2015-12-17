@@ -1,0 +1,56 @@
+html {
+  background-color: #ffffff; 
+  color:  #000080;
+  
+}
+
+a {  color: #800080;
+}
+
+a:visited { color: #ff0000;
+  
+}
+
+header { font-weight: bold;
+		 text-align: center;
+            
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header h2 {
+  font-size: 1em;
+}
+
+header p {
+  font-size: 0.75em
+}
+
+
+
+div { display: inline-block
+}
+
+li p { font-size: .5em;
+       color: #000080;
+  
+}
+
+.big {
+  font-size: 4em
+}
+
+.small {
+  font-size: 0.75em
+}
+
+.geico-image {
+				font-size: .5em;
+				text-align: center;
+}
+
+.pre-footer	{font-size: .6em;}
+
+.bold {font-weight: bold}
