@@ -1,0 +1,31 @@
+header {
+  background-color: red;
+}
+
+header h1 {
+  color: white;
+  text-align: center
+}
+
+.column-1 {
+  background-color: yellow;
+  float: left;
+  width: 50%;
+}
+
+.column-2 {
+  background-color: blue;
+  float: right;
+  width: 50%;
+}
+
+footer {
+  background-color: green;
+  clear: both;
+}
+
+article {
+  border: 1px solid black;
+  border-radius: 5%
+  
+}
