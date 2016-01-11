@@ -5,13 +5,14 @@
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
 
-# Person 1's solution
+# Person 1 - Jonathan Silvestri
 def my_array_finding_method(source, thing_to_find)
-
+  source.select{|element| element.respond_to?('include?') && element.include?(thing_to_find) }
 end
 
+#I did not feel the need to refactor here.
 def my_hash_finding_method(source, thing_to_find)
-
+  source.select{|key, value| value == thing_to_find}.keys
 end
 
 # Identify and describe the Ruby method(s) you implemented.
@@ -69,13 +70,16 @@ end
 # very slowly and break each argument down to understand what that method does. 
 
 
-# Person 3
+# Person 3 - Charlie Bliss
+# array= [3,4,5,9]
 def my_array_sorting_method(source)
-
+  source.sort { |a, b| a.to_s <=> b.to_s }
 end
-
+# puts array
+# puts "stop"
+# puts my_array_sorting_method(array)
 def my_hash_sorting_method(source)
-
+  source.sort_by{ |k, v| v}
 end
 
 # Identify and describe the Ruby method(s) you implemented.
@@ -84,13 +88,13 @@ end
 #
 
 
-# Person 4
+# Person 4 - Christopher Bunkers
 def my_array_deletion_method!(source, thing_to_delete)
-
+  source.delete_if { |a, b| a.upcase.include?(thing_to_delete.upcase) }
 end
 
 def my_hash_deletion_method!(source, thing_to_delete)
-
+  source.delete_if { |k, v| k.upcase.include?(thing_to_delete.upcase) }
 end
 
 # Identify and describe the Ruby method(s) you implemented.
@@ -100,13 +104,13 @@ end
 
 
 # Person 5
-def my_array_splitting_method(source)
+# def my_array_splitting_method(source)
 
-end
+# end
 
-def my_hash_splitting_method(source, age)
+# def my_hash_splitting_method(source, age)
 
-end
+# end
 
 # Identify and describe the Ruby method(s) you implemented.
 #
