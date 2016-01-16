@@ -2,7 +2,7 @@
 # 1)Matt B.
 # 2)Linda H.
 
-# We spent [#] hours on this challenge.
+# We spent 1 hour on this challenge.
 
 # Bakery Serving Size portion calculator.
 
