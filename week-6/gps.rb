@@ -31,10 +31,13 @@ p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
 # What did you learn about making code readable by working on this challenge?
-# I learned how important making code readable is. Before we refactored, it was almost completely unreadable and I did not even know what the method was trying to accomplish.
+# I learned how important making code readable is. Before we refactored, it was
+# almost completely unreadable and I did not even know what the method was
+# trying to accomplish.
 
 # Did you learn any new methods? What did you learn about them?
-# I learned about the has_key?/has_value? methods which made refactoring the Argument error easy and much more readable.
+# I learned about the has_key?/has_value? methods which made refactoring the
+# Argument error easy and much more readable.
 
 # What did you learn about accessing data in hashes?
 # There are many ways of accessing data in hashes but the simplest way would be
