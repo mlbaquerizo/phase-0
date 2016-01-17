@@ -2,7 +2,7 @@
 
 
 # I worked on this challenge with: Ian Wudarski.
-# I spent 2 hours on this challenge.
+# I spent 2 hours on this challenge. 
 
 # Pseudocode
 
