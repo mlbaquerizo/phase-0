@@ -1,8 +1,8 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [with: Matthew ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge with: Ian Wudarski.
+# I spent 2 hours on this challenge.
 
 # Pseudocode
 
